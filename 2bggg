@@ -15,12 +15,12 @@ if isModern then
     end
     queueonteleport(string.format([[
     getgenv().Message = %q
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/binkrankbrd/1stt/refs/heads/main/1st", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/binkrankbrd/2nddd/refs/heads/main/2bggg", true))()
 ]], getgenv().Message))
 
 
 
-    TeleportService:TeleportToPlaceInstance(game.PlaceId, game.JobId)
+    TeleportService:TeleportToPlaceInstance(game.PlaceId)
 else
     error("Read the fucking v3rm title you dumbass bitch")
 end
